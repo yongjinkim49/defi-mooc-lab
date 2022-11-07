@@ -240,7 +240,7 @@ contract LiquidationOperator is IUniswapV2Callee {
         );
         require(health_factor < 10**health_factor_decimals);
 
-        uint256 debt_to_cover = 1576166541324;
+        uint256 debt_to_cover = 1676166541324;
 
         // 2. call flash swap to liquidate the target user
         // based on https://etherscan.io/tx/0xac7df37a43fab1b130318bbb761861b8357650db2e2c6493b73d6da3d9581077
